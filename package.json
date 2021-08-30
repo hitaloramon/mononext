@@ -1,0 +1,23 @@
+{
+    "name": "mono-next",
+    "publisher": "MonoNext",
+    "icon": "icon.png",
+    "displayName": "Mono Next",
+    "description": "Theme custom by Hitalo Ramon",
+    "version": "1.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "MonoNext",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MonoNext-color-theme.json"
+            }
+        ]
+    }
+}
